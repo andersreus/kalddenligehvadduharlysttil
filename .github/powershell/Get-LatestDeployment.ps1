@@ -10,7 +10,7 @@ param(
 
     [Parameter(Position=2)]
     [string] 
-    $TargetEnvironmentAlias,
+    $TargetEnvironmentAlias = "live"
 
     [Parameter(Position=3)]
     [string] 
