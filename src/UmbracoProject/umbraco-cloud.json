@@ -1,7 +1,17 @@
 {
   "Deploy": {
     "Project": {
-      "Workspaces": []
+      "Name": "testingdeploymentwebhookwithcicd",
+      "Alias": "testingdeploymentwebhookwithcicd",
+      "Id": "d27db7e6-f987-493d-9f4f-1d02485270c5",
+      "Workspaces": [
+        {
+          "Id": "d4f1fba2-ed90-47ad-b98a-abcdda313850",
+          "Name": "Live",
+          "Type": "live",
+          "Url": "https://testingdeploymentwebhookwithcicd.euwest01.umbraco.io"
+        }
+      ]
     },
     "Settings": {}
   },
